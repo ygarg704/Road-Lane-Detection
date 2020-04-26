@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Road lane detection</title>
+
+<style>
+	.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 50%;
+}
+
+</style>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body style="background: url(https://i.pinimg.com/originals/b9/ec/61/b9ec615f8bd55e3ed60f9d6444bb54f2.jpg); background-size:100% 100%;">
+
+<nav class="navbar navbar-inverse" style="font-family:sans-serif; margin-bottom:0px; background-color: #f6f1f1; border-color: #f6f1f1;">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#" style="color:#3c5fb5;">R.L.D</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#" style="color:#060606; background-color:#f6f1f1">Home | Yash Garg</a></li>
+        </ul>
+    </div>
+</nav>
+
+<header>
+    <div style="border-radius:10px; font-size:22px; color:#b9aff1; font-family:sans-serif; background-color:black; padding: 10px 15px;">
+         Road Lane Detection application using Computer Vision
+    </div>
+</header>
+
+<header>
+		<div>
+				<p style="font-size:40px; text-align: center; font-family:sans-serif; color:white;">File uploaded successfully !!</p>
+			</div>
+
+	</header>
+
+	<div>
+		<div>
+			<p style="font-size:25px; text-align: center; font-family:sans-serif; color:white; margin-top:15px;">----Your Input Image----</p>
+			<img src="{{ img_in }}"; class="center"> <!-- don't change-->
+		</div>
+
+		<div style="margin-bottom:30px;">
+			<p style="font-size:25px; text-align: center; font-family:sans-serif; color:white; margin-top:25px;">----Your Output Image----</p>
+			<img src="{{ img }}"; class="center";> <!-- don't change-->
+		</div>
+
+</div>
+
+</body>
+</html>  
